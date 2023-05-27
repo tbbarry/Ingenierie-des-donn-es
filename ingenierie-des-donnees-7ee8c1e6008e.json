@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ingenierie-des-donnees",
+  "private_key_id": "7ee8c1e6008e00dbc15ac60d03e2f8ba4bac5dfb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0FHxB1tJ3aQ3p\noMpEjPQtSi2LcqU0ipKmao2mnQPbZ+djrvV/smMOU5FXk9l1dpZOFM68m4lNKTom\n+5qMq9hrUYQi/6Wso1b0lSYSpmHWu/yXtNZqfwQAnhB7MOXvaNTWzfn0hfsX6og9\n+eseDFdAle9EHkOW0bcdZywmihOmcULqHKwfHWZkYejPpmyNwOpohAisvpWiXZuw\nfOLS8utsGF5U+PAmZnDE0Rrpu60guzIdN6cJyqCI+HEcwp6FSh5owBB+d0kRw9Q2\nm4jfYyNc7bwNgS1/yhkACjbx11ty9XdC5qdfYZu3e2PmmAr00kzoEQshmEvzEy7G\ntEBgZvxLAgMBAAECggEAB7ef4nS4o7sfrPCYzMPWx5fOyG8YxDlgoKkfMO1K008h\nMJUBvzakJvUF3POFGjeVqEQdJ/3Erkb+mLUVWMMZHzux77BRlUq2IiG/4/JukmJq\n3w6jxAAHxZglGT3bOC/oxgBqVURUECCbNPXgUZegFZ4yvaSVPYH3RmmXNH+cDa+g\nGyifdvfnnI8PeEnyyergA/mUEyvL0MF0fo/1biDmo01mNmAoQCQWP+vqThpsjAng\nelEqONhMqKgSvV6VfWesY44tp1Dpbpz5+FGIFixByed0rcge8Pq19kisSHQIsdAM\nN5dJvpmZnKMK/BkBIX0HUrabHW/Ow9ewMkzVTSoF4QKBgQDvPgj0rOqfCWQ7UjE0\nmQBimYgqr6F2q+PbBPMKmmDcf5/6s77BzpMjZZUxbe+NqhrzAwRSvyzBSiKSRNTe\n3aDuxK9FcQXcgiPVytPKml5QyE+iUeUkgjanmajflIQjcntfMCEabNlidWC1uOMV\nWd3/WIVL73Hp17xODEBwaXdttQKBgQDAsZVuQE5OHD6tf07PvsvQJ+eZ8uqwwHOL\nb+lRY8wdpTbHmjAmS3NMlwdPpcOMM6GoZsXL56IBiOLlEP91HySfEeNeXsZpUqx+\nRuWny641PeLTg1YfZCNLmXG4+WVyvgAUxdWgnq6ktwdJeLX+SOEPwkHubvrSR1YX\nz0wA2NcB/wKBgCchL1fNfGZco98r905SBAUcdW/939vIC3GEIrhGPbdyzFi102ph\nfiFY+QjnoTm7a8L5aFicWhaXKIZh6as19p923e/up3XEd1X9YZyOmQR/br7uxBqv\njX7mG//Ni7s8ez87YP6wdPGsnw+52LJiS3P7J3ofBLOpjGv7hwKbzWPNAoGACNdd\nEtzyetUC7zT7Kb8IXPmnv8GMkSWTZ59v5iMdF3MgK1JgyTEHDkmTtUzWxxULYs2s\nX6m2Hjnopzf7cKVIKeBJPWg91FFNxtF78hH/YUQAp1HMXs5abDqTJDiVNgmPuWRG\nZAND4hzfwbg/KXawlOeF3OnMql9JjPge9Z79ZoMCgYEAqS9zwCmyhyI4P/hGBN8Z\n34tIEBZ3t15M+ZZsm0Zw3fJNGb7Ex6ZISlhJwzjv+0lqxGQ3YiDDQMm5xtqGVCSJ\ntF8EHcD2jZ4+pdxsqG+MNO5CMWLduYG9dBWfFwhtNVK7go5BiaXZZqcsWYpgLFaN\n7qWhztEhd6t2xZGIzTFNr9Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ingenierie-des-donnees@ingenierie-des-donnees.iam.gserviceaccount.com",
+  "client_id": "106676847718225073985",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ingenierie-des-donnees%40ingenierie-des-donnees.iam.gserviceaccount.com"
+}
