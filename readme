@@ -12,8 +12,14 @@ A. Configuration
 
 B. Installation et mode d'utilisation
     1. npm install
-    2. python3 collecte_mesures_pm10_et_so2.py
-    3. python3 traitement_donnees_polluants.py
-    4. python3 import_polluants_dans_bigquery.py
-    5. collecte_commune_et_population.py
+    2. python3 collecte_mesures_pm10_et_so2.py # Collecte des données
+    3. python3 traitement_donnees_polluants.py #  Traitement des fichiers
+    4. python3 import_polluants_dans_bigquery.py # import des données dans bigquery
+    5. collecte_commune_et_population.py          # Collecte des communes et entreprise
+
+    # Alert et publication
+    1. python3 publication_alerte.py # Laisser l'application lancée chaque 3h elle va faire
+        la collecte des données du polluant SO2 et effectuer la publication en cas de depassement
+        de seuils
+    2. python3 reception_notification_alert.py # Pour ecouter la publication
 
