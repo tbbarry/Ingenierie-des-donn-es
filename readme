@@ -2,12 +2,14 @@ A. Configuration
     1. Creation d'un projet google
     2. Activer tous les service necessaires
     3. Creer et telecharger la clé API au format json et l'enregistrer dans le repertoir du projet,
-        puis enregistrer le chemin dans le fichier de config (.env)
+        puis enregistrer son chemin dans le fichier de config (.env) # GOOGLE_APPLICATION_CREDENTIALS
     4. Creer 3 buckets respectivement: bucket des fichiers à traiter, bucket des fichiers traités et bucket pour
         les fichiers à importer dans bigquery
-    5. Enregistrer les nom des buckets dans le fichier .env du projet
+    5. Enregistrer les nom des buckets dans le fichier .env du projet # NOM_DU_BUCKET_DES_FICHIERS_À_TRAITER, NOM_DU_BUCKET_DES_FICHIERS_TRAITER et 
+          NOM_DU_BUCKET_DES_FICHIERS_TEMPORAIRE_A_INSERER_DANS_BIGQUERY 
     6. Creer un ensemble des données  dans bigquery
-    7. Enregister le nom du de l'ensemble des données le fichier .env du projet
+    7. Enregister le nom du de l'ensemble des données le fichier .env du projet # ID_ESPACE_DES_DONNEES
+    8. Activer pub sub et creer un topic et une souscription puis enregistrer leur nom dans le fichier .env # TOPIC_NAME , SOUSCRIPTION
 
 
 B. Installation et mode d'utilisation
@@ -15,7 +17,7 @@ B. Installation et mode d'utilisation
     2. python3 collecte_mesures_pm10_et_so2.py # Collecte des données
     3. python3 traitement_donnees_polluants.py #  Traitement des fichiers
     4. python3 import_polluants_dans_bigquery.py # import des données dans bigquery
-    5. collecte_commune_et_population.py          # Collecte des communes et entreprise
+    5. python3 collecte_commune_entreprise_et_population.py          # Collecte des communes et entreprise
 
     # Alert et publication
     1. python3 publication_alerte.py # Laisser l'application lancée chaque 3h elle va faire
